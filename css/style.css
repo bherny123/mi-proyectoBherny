@@ -202,4 +202,16 @@ button {
 div {
 	transform: scale(1,1);	
 	 }
+	
+
+.grid {
+	display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 2fr 1fr;
+  grid-template-columns: [x0] 1fr [x1] 1fr [x2] 1fr [x3];
+  grid-template-rows: [y0] 1fr [y1] 1fr [y2] 1fr [y3];
+  grid-column-gap: 100px;
+  grid-row-gap: 10px;
+}
+
 	 
